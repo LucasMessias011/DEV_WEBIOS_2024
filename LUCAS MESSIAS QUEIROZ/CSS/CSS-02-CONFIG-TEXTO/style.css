@@ -1,0 +1,26 @@
+ /* Aqui tem um comentario(comentario em mais de uma linha)*/
+
+ body{
+    
+    
+
+    /*background-color: rgb(0, 0, 0,);*/
+    /*background-color: rgb #ff00 00 00;*/
+    background-color: rgb(00, 00, 99)
+    
+    }
+    h1{
+        font-family: "Rubik Mono One", monospace;
+        font-size: 30px;
+
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-family: "DM Serif Display", sans-serif;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    img{
+        height: 600px;
+        width: 1000px;
+    }
