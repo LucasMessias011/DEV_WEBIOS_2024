@@ -11,16 +11,22 @@
     }
     h1{
         font-family: "Rubik Mono One", monospace;
-        font-size: 30px;
+        font-size: 300%;
+        text-shadow: 10px 7px 11px gray;
 
         color: rgb(255, 255, 255);
     }
     p{
         font-family: "DM Serif Display", sans-serif;
         font-size: 2rem;
+        font-style: italic;
+        line-height: 170%;
+        text-shadow: 10px 10px 100px black;
         color: #ffffff;
     }
     img{
-        height: 600px;
-        width: 1000px;
+        height: 30%; /*altura*/
+        width:80%; /*largura*/
+       /* box-shadow: 20px 20px 2 0px black;*/ /*raio da imagem*/
+        
     }
