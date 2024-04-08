@@ -1,0 +1,19 @@
+
+p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: 700px;
+    color: #b3e9f3;
+}
+h1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 5rem;
+    font-weight: 700px;
+    color: #6590d1;
+    text-shadow: 3px 3px 3px color  #48789f;
+    
+}
+img{
+    height: 500px;
+    width: 800px;
+}
