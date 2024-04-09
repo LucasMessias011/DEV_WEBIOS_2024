@@ -1,3 +1,10 @@
+*{ /*seletor pai > o que for aplicado dentro  dele será aplicado na pagina web inteira
+    inclusive na tag body*/
+    margin: 1;
+}
+
+
+
 .corazul{
     color: blue;
     font-weight: 700;
@@ -8,6 +15,7 @@
 .cordecocô{
     color: brown;
     text-align: center;
+    text-indent: 50px; /*começo de um paragrafo*/
 }
 p{
     color: darkred;
@@ -15,6 +23,43 @@ p{
 }
 .corazulh1{
     color: darkblue;
-    text-align: center-;
+    text-align: center;
 
+}
+.mudah1{
+    color: black;
+    text-shadow: 5px 5px 5px palegreen;
+    text-align: end;
+}
+.mudah2{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    text-align: end;
+}
+.mudah3{      /*para chamar um seletor é usado ponto*/
+    color:aqua;
+    text-shadow: 2px 2px 4px blue;
+    text-align: end;
+    }
+#mudançaunica{ /*para chamar id do seletor*/
+    color: darkorange;
+    ;font-size: 100px;
+    line-height: 20px;
+    text-align: center
+}
+#segundamudança{
+    color: darkorange;
+    ;font-size: 100px;
+    line-height: 20px;
+    text-align: start
+
+}
+#terceiramundaça{
+    color: darkorange;
+    ;font-size: 100px;
+    line-height: 20px;
+    text-align: end
+}
+h1{
+    text-align:justify;
 }
