@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("https://picsum.photos/id/642/600/400"); /*o uso da imagem em forma de link*/
+    background-repeat: no-repeat; /*quantas vezes repetir a imagem*/
+    background-size: 100%;
+    background-position: center; /*permite definir o local da imagem*/
+    background-attachment: scroll; /*fixed, scroll*/ /*permite escolher se a imagem va rolar junto com a imagem*/
+}
+#primeiroparagrafo{
+    border: 2px outset blue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+
+#imagemdocarro{
+    border: 0px solid darkblue;
+    border-radius: 30px;
+    
+}
