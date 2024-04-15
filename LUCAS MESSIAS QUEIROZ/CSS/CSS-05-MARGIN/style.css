@@ -1,3 +1,9 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
 #secao{
     border: 1px #000000 solid;
     /*border-radius: 5px;
@@ -7,4 +13,17 @@
     padding-left/esquerda: 50px;*/
     /*padding: 10px 50px 20px 50px;*/
     padding: 30px;
+    }
+    #secao2{
+        border: 1px #ff2374 solid;
+        padding: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+    }
+    #secao3{
+        border: 1px solid rgb(232,111,245);
+        padding: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
