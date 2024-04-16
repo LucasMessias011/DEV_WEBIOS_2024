@@ -1,0 +1,10 @@
+/*.filhomaisvelho{
+    background-color: yellow;
+}*/
+p:first-child{
+    background-color: yellow;
+}
+/*forma mais rapida para colocar cor em uma tag sem usar class. ele so ira funcionar se a tag estiver na primeira linha*/
+p:last-child{
+    background-color: tomato;
+}
