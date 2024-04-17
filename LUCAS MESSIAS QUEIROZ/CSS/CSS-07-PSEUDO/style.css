@@ -8,3 +8,31 @@ p:first-child{
 p:last-child{
     background-color: tomato;
 }
+#botão{
+    border: 1px solid red;
+    background-color: aqua;
+    border-radius: 5px;
+}
+#botão:hover{
+    color: white;
+    background-color: black;
+    font-size: 100px;
+}
+#paragrafohover:hover{
+    background-color: darkblue;
+    color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 100px;
+
+}
+#titulo:hover{
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+}
+#imagem:hover{
+    box-shadow: 10px 10px 10px #1e90ff;
+    width: 700px;
+    height: 700px;
+}
