@@ -6,7 +6,25 @@ img{
 /* Enquanto a largura minima da minha imagem for de 450px a largura das imagens serão de 200px*/
 /*500px*/
 @media (max-width: 450px) {
-    img{
+    body{
+        background-color: aqua;
+    }
+    img:hover{
+        border: 1px solid black;
         width: 200px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
     }
 }
+@media(min-width: 452px){
+    body{
+        background-color: darkred;
+    }
+    img:hover{
+        width: 1000px;
+        border: 10px solid aqua;
+        border-radius: 10px;
+        box-shadow: 20px 20px 20px aqua;
+    }
+} 
+
