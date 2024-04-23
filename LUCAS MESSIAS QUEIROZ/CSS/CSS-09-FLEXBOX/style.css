@@ -1,0 +1,57 @@
+#container{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;/*para direcionar a direção da linha*/
+    flex-wrap: wrap; /*para nao deixar quebrar linha*/
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+.item1{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item2{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item3{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item4{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item5{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+    }
+    .item6{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item7{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
+.item8{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 60px;
+    height: 50px;
+}
