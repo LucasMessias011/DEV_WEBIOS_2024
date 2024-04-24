@@ -1,0 +1,49 @@
+#container{ /*colomns se referencia a coluna*/ /*rows se referencia a linha*/
+    color: green;
+    display: grid; /*trabalhar com grid*/
+    /*display: flex;*/ /*flex, ira ficar em rinha reta*/
+   /* grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px 50px;*/ /*para decidir qual o tamanho das células*/
+  /* grid-template-columns: repeat(9, 50px);*/ /*para decidir quantas colunas vai ter*/
+} 
+.itens{
+    border: 2px solid white;
+    background-color: indigo;  
+}
+
+
+
+
+body{
+    background-color: black;
+    text-align: center;
+}
+.paragrafo{
+    color: green;
+    font-size: 30px;
+
+}
+h1{
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    
+}
+img{
+    height: 700px;
+    width: 1100px;
+    text-align: center;
+
+}
+footer{
+    color: green;
+    text-align:justify;
+}
+#oqueéhacker{
+    color: green;
+    font-size: 40px;
+
+}
+h2{
+    color: greenyellow;
+    font-size: 50px;
+}
