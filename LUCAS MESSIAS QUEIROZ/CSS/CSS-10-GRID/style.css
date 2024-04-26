@@ -1,11 +1,11 @@
-#container{ /*colomns se referencia a coluna*/ /*rows se referencia a linha*/
-    color: green;
-    display: grid; /*trabalhar com grid*/
-    /*display: flex;*/ /*flex, ira ficar em rinha reta*/
-   /* grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px 50px;*/ /*para decidir qual o tamanho das células*/
+/*#container{ /*colomns se referencia a coluna*/ /*rows se referencia a linha*/
+    /*color: green;*/
+    /*display: grid; /*trabalhar com grid*/
+    /*display: flex; /*flex, ira ficar em rinha reta*/
+   /*grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px 50px; /*para decidir qual o tamanho das células*/
   /* grid-template-columns: repeat(9, 50px);*/ /*para decidir quantas colunas vai ter*/
-} 
-.itens{
+
+/*.itens{
     border: 2px solid white;
     background-color: indigo;  
 }
@@ -45,5 +45,53 @@ footer{
 }
 h2{
     color: greenyellow;
-    font-size: 50px;
+    font-size: 50px;*/
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "header header header header " " main  main . sidebar" "footer footer footer footer";
+    row-gap: 10px; /*espaçamento entre as linhas*/
+    column-gap: 15px; /*espaçamento entre as colunas*/
+   /* grid-template-rows: repeat(3, 50px);
+    /*align-items: center; /*fazer a célula mecher na vertical*/
+   /* justify-items: center; /*fazer a célula mecher na horizontal*/
+
+}
+
+
+
+
+
+
+
+
+
+
+#item-1{
+    grid-area: header;
+}
+
+#item-2{
+    grid-area: main;
+}
+
+#item-3{
+    grid-area: sidebar;
+}
+#item-4{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+.itens{
+    border: solid 1px black;
+   /* width: 50%;
+    height: 50%;*/
+
 }
