@@ -55,5 +55,8 @@ if (!padrao.test(emailInput.value)) {
 msg_email.classList.add('error');
 msg_email.innerHTML = 'Por favor, insira um e-mail válido.';
 setTimeout(() => msg.remove(), 3000);
+btn.style.focus();
+}else{
+    msg_email.remove()
 }
 });
