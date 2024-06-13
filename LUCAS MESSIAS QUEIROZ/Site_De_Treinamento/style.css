@@ -1,0 +1,110 @@
+body{
+    background-image: url(./cabecario2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 20px;
+    height: 50px;
+}
+header{
+    background-image: url(./5f58341794969efa495440f386964069.jpg);
+    text-align: center;
+    font-size: 100px;
+    border-radius: 5px;
+}
+span:hover{
+    background-color: #725436;
+    color: #c1c2bc
+}
+
+.divisoes{
+    background-color: #8c8676;
+    border-radius: 5px;
+}
+#div1{
+    border-radius: 10px;
+    padding: 2em;
+    background-color: #c1c2bc;
+    margin: 30px;
+    #foto1{
+        margin-right: 20px;
+        width: 200px;
+        height: 180px;
+        float: left;
+    }
+}
+#div2{
+    border-radius: 10px;
+    padding: 2em;
+    background-color: #c1c2bc;
+    margin: 30px;
+    iframe{
+        margin-right: 20px;
+        width: 250px;
+        height: 220px;
+        float: left;
+    }
+}
+#divisao{
+    border-radius: 10px;
+    background-color:#c1c2bc;
+    padding: 2em;
+    margin: 30px;
+}
+#imagem3{
+    float: right;
+    width: 220px;
+    height: 120px;
+    border-radius: 7px;
+}
+#imagem4{
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+}
+#imagem5{
+    float: right;
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+}
+#imagem6{
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+}
+.button1{
+    
+    border-radius: 5px; 
+}
+.button2{
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #314a20;
+    color: white;
+}
+.letra{
+    font-size: 70%;
+    color: #725436;
+}
+
+footer{
+    margin-top: 80px;
+    background-size: 9%;
+    text-align: center;
+    background-color: #8c8676;
+    padding: 2em;
+}
+   
+
+
+.footer::before{
+    content: "\00A9";
+}
+
+.footer::after{
+    content: "Lucas Messias";
+}
